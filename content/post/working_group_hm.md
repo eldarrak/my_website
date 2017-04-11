@@ -14,6 +14,8 @@ fitting hierarchical models in ecology. I gave a talk on "Local minima and multi
 capture-recapture models", slides and R code available on 
 [GitHub](https://github.com/oliviergimenez/multistate_local_minima).
 
+<iframe src="https://widgets.figshare.com/articles/4833524/embed?show_title=1" width="568" height="351" frameborder="0"></iframe>
+
 <!--more-->
 
 The idea is to consider several problematic case studies and explore the issues using

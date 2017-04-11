@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Polar Bear on </title>
+    <link>https://oliviergimenez.github.io/tags/polar-bear/index.xml</link>
+    <description>Recent content in Polar Bear on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Olivier Gimenez</copyright>
+    <atom:link href="/tags/polar-bear/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Visiting Tromso, polar bear demography</title>
+      <link>https://oliviergimenez.github.io/post/polar_bear/</link>
+      <pubDate>Mon, 30 May 2016 12:00:00 +0000</pubDate>
+      
+      <guid>https://oliviergimenez.github.io/post/polar_bear/</guid>
+      <description>&lt;p&gt;My post-doc Sarah Cubaynes and I went to visit our colleague
+&lt;a href=&#34;http://www.npolar.no/en/people/jon.aars/&#34; target=&#34;_blank&#34;&gt;Jon Aars&lt;/a&gt; in
+Tromso, Norway. We are working together on the demography of polar bears using an amazing dataset
+the &lt;a href=&#34;http://www.npolar.no/en/&#34; target=&#34;_blank&#34;&gt;Norwegian Polar Institute&lt;/a&gt; has
+been collecting for decades. It was also the opportunity to catch up with
+&lt;a href=&#34;https://uit.no/om/enhet/ansatte/person?p_document_id=41160&amp;p_dimension_id=88165&#34; target=&#34;_blank&#34;&gt;Nigel (Gilles)
+Yoccoz&lt;/a&gt; who&amp;rsquo;s being very helpful with this project. Jon took us fishing; I was luckier than with fly-fishing ;-)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

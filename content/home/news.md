@@ -18,5 +18,7 @@ tags = []
 # Number of posts to list.
 count = 5
 
+# Allow comments
+
 +++
 

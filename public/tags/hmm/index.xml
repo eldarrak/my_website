@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hmm on </title>
+    <link>https://oliviergimenez.github.io/tags/hmm/index.xml</link>
+    <description>Recent content in Hmm on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Olivier Gimenez</copyright>
+    <atom:link href="/tags/hmm/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Laura Cowen&#39;s sabbatical</title>
+      <link>https://oliviergimenez.github.io/post/laura_cowen/</link>
+      <pubDate>Thu, 01 Sep 2016 12:00:00 +0000</pubDate>
+      
+      <guid>https://oliviergimenez.github.io/post/laura_cowen/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.math.uvic.ca/~lcowen/&#34; target=&#34;_blank&#34;&gt;Laura Cowen&lt;/a&gt; from the Department of Math and Stat
+at University of Victoria (Canada) will be on a sabbatical with us for 3 months.
+We will be working on the applications of hidden Markov models to capture-recapture data.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

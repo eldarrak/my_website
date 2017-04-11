@@ -9,6 +9,7 @@ summary = """
 
 +++
  
+<img style="float:left;margin-right:10px;margin-top:10px;" src="/img/izw.gif">
 I spent 3 days in Berlin at the [Leibniz Institute for Zoo and Wildlife 
 Research](http://www.leibniz-izw.de/welcome.html) catching up with friends and 
 colleagues (L. Marescot, S. Benhaim, S. Kramer-Schadt, A. Courtiol, H. Hofer). 

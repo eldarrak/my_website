@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Demography on </title>
+    <link>https://oliviergimenez.github.io/tags/demography/index.xml</link>
+    <description>Recent content in Demography on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Olivier Gimenez</copyright>
+    <atom:link href="/tags/demography/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>DEMOCOM kick-off meeting</title>
+      <link>https://oliviergimenez.github.io/post/anr_democom_kickoff/</link>
+      <pubDate>Thu, 23 Feb 2017 12:00:00 +0000</pubDate>
+      
+      <guid>https://oliviergimenez.github.io/post/anr_democom_kickoff/</guid>
+      <description>&lt;p&gt;We had our first meeting for the project &amp;ldquo;Climate and management effects
+on COMmunity dynamics – Developing multi-species DEMOgraphy&amp;rdquo;funded by
+&lt;a href=&#34;http://www.agence-nationale-recherche.fr/en/project-based-funding-to-advance-french-research/&#34; target=&#34;_blank&#34;&gt;ANR&lt;/a&gt;.
+The website is operational and running, check it out &lt;a href=&#34;https://sites.google.com/view/democom/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Working group on animal/human demography</title>
+      <link>https://oliviergimenez.github.io/post/working_group_demo/</link>
+      <pubDate>Thu, 26 Jan 2017 12:00:00 +0000</pubDate>
+      
+      <guid>https://oliviergimenez.github.io/post/working_group_demo/</guid>
+      <description>&lt;p&gt;We organised a 2-day workshop on the metrics of longevity used in human and
+animal demography. The idea is to explore potential bridges between the two fields.
+Next meeting in April. The group is led by S. Cubaynes, a former PhD student of mine,
+who now holds a lecturer position at Montpellier University.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Research grant on multispecies demography</title>
+      <link>https://oliviergimenez.github.io/post/anr_democom/</link>
+      <pubDate>Thu, 21 Jul 2016 12:00:00 +0000</pubDate>
+      
+      <guid>https://oliviergimenez.github.io/post/anr_democom/</guid>
+      <description>&lt;p&gt;Wow, another good news, our project &amp;ldquo;Climate and management effects
+on COMmunity dynamics – Developing multi-species DEMOgraphy&amp;rdquo; will be funded by
+&lt;a href=&#34;http://www.agence-nationale-recherche.fr/en/project-based-funding-to-advance-french-research/&#34; target=&#34;_blank&#34;&gt;ANR&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;I submitted it in April for the third time. I originally submitted it (just once) to the
+&lt;a href=&#34;https://erc.europa.eu/funding/starting-grants&#34; target=&#34;_blank&#34;&gt;ERC&lt;/a&gt; back in 2011,
+it was rejected. Over the years, we received constructive comments from referees that helped
+improving the project, and made it more solid.&lt;/p&gt;
+
+&lt;p&gt;In DEMOCOM, we will develop an integrated statistical
+framework for estimation and inference about community dynamics via the development of a multispecies
+demography, bringing together concepts, predictions and tools from both fields of demography and community ecology.
+We will apply this new framework to case studies on fishes, mammals and birds.
+The methods will be made available through R packages.&lt;/p&gt;
+
+&lt;p&gt;This is a collaborative project
+with many partners involved, and people to be hired (stay tuned). The project will start early 2017, more soon.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Visiting Tromso, polar bear demography</title>
+      <link>https://oliviergimenez.github.io/post/polar_bear/</link>
+      <pubDate>Mon, 30 May 2016 12:00:00 +0000</pubDate>
+      
+      <guid>https://oliviergimenez.github.io/post/polar_bear/</guid>
+      <description>&lt;p&gt;My post-doc Sarah Cubaynes and I went to visit our colleague
+&lt;a href=&#34;http://www.npolar.no/en/people/jon.aars/&#34; target=&#34;_blank&#34;&gt;Jon Aars&lt;/a&gt; in
+Tromso, Norway. We are working together on the demography of polar bears using an amazing dataset
+the &lt;a href=&#34;http://www.npolar.no/en/&#34; target=&#34;_blank&#34;&gt;Norwegian Polar Institute&lt;/a&gt; has
+been collecting for decades. It was also the opportunity to catch up with
+&lt;a href=&#34;https://uit.no/om/enhet/ansatte/person?p_document_id=41160&amp;p_dimension_id=88165&#34; target=&#34;_blank&#34;&gt;Nigel (Gilles)
+Yoccoz&lt;/a&gt; who&amp;rsquo;s being very helpful with this project. Jon took us fishing; I was luckier than with fly-fishing ;-)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Working group in demography</title>
+      <link>https://oliviergimenez.github.io/post/gdr_demography/</link>
+      <pubDate>Thu, 02 Apr 2015 12:00:00 +0000</pubDate>
+      
+      <guid>https://oliviergimenez.github.io/post/gdr_demography/</guid>
+      <description>&lt;p&gt;As part of the &lt;a href=&#34;https://sites.google.com/site/gdrecostat/themes&#34; target=&#34;_blank&#34;&gt;GdR
+EcoStat and our evolutionary demography group&lt;/a&gt;, we had a stimulating workshop on the
+quantification of individual heterogeneity in survival of wild populations
+using &lt;a href=&#34;http://www.demographic-research.org/volumes/vol31/19/&#34; target=&#34;_blank&#34;&gt;an
+approach recently developed by Hal Caswell&lt;/a&gt;. Hal attended the workshop with Lotte de
+Vries her new PhD student who will be leading the study.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bayes on </title>
+    <link>https://oliviergimenez.github.io/tags/bayes/index.xml</link>
+    <description>Recent content in Bayes on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Olivier Gimenez</copyright>
+    <atom:link href="/tags/bayes/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AppliBugs and applications of Bayesian theory</title>
+      <link>https://oliviergimenez.github.io/post/applibugs_montpellier/</link>
+      <pubDate>Fri, 28 Nov 2014 12:00:00 +0000</pubDate>
+      
+      <guid>https://oliviergimenez.github.io/post/applibugs_montpellier/</guid>
+      <description>&lt;p&gt;We held AppliBugs in Montpellier, with the idea to stimulate exchanges and to share
+information on Bayesian methods and applications
+(&lt;a href=&#34;https://dl.dropboxusercontent.com/u/23160641/my-pubs/annonceAppliBugs-28novembre-Montpellier.pdf&#34; target=&#34;_blank&#34;&gt;program here&lt;/a&gt;).
+The day went well despite a rainstorm falling on Montpellier. All talks were
+great, and I was particularly interested in Adrien Todeschini&amp;rsquo;s presentation of
+&lt;a href=&#34;http://https://alea.bordeaux.inria.fr/biips/doku.php&#34; target=&#34;_blank&#34;&gt;Biips&lt;/a&gt;,
+a software allowing the implementation of state-space models using particle filtering and
+a R/BUGS-like syntax.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

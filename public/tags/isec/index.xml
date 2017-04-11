@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Isec on </title>
+    <link>https://oliviergimenez.github.io/tags/isec/index.xml</link>
+    <description>Recent content in Isec on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Olivier Gimenez</copyright>
+    <atom:link href="/tags/isec/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>International Statistical Ecology Conference in Seattle</title>
+      <link>https://oliviergimenez.github.io/post/isec_2016/</link>
+      <pubDate>Fri, 01 Jul 2016 12:00:00 +0000</pubDate>
+      
+      <guid>https://oliviergimenez.github.io/post/isec_2016/</guid>
+      <description>&lt;p&gt;I attended the &lt;a href=&#34;http://depts.washington.edu/uwconf/wordpress/isec2016/&#34; target=&#34;_blank&#34;&gt;International Statistical Ecology Conference in
+Seattle&lt;/a&gt;. I don’t go often
+to conferences, but I do my best not to miss that one.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;This
+year, clearly, hidden Markov models (HMM) were on the lips of everyone. Well, it was
+cool to realize that I wasn&amp;rsquo;t too &amp;ldquo;has been&amp;rdquo; by giving a &lt;a href=&#34;http://depts.washington.edu/uwconf/wordpress/isec2016/workshops/&#34; target=&#34;_blank&#34;&gt;1-day workshop on fitting
+occupancy models with HMM&lt;/a&gt;
+and program E-SURGE developed in our team.&lt;/p&gt;
+
+&lt;p&gt;I also gave a talk on the use of PCA to deal
+with many correlated covariated in capture-recapture models.&lt;/p&gt;
+
+&lt;iframe src=&#34;https://widgets.figshare.com/articles/4833107/embed?show_title=1&#34; width=&#34;568&#34; height=&#34;351&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;I also co-authored a talk that Ian Renner (see below) gave on combining sources of
+information on species distribution.&lt;/p&gt;
+
+&lt;iframe src=&#34;https://widgets.figshare.com/articles/4833098/embed?show_title=1&#34; width=&#34;568&#34; height=&#34;351&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>New kids on the Bayesian block</title>
+      <link>https://oliviergimenez.github.io/post/nimble/</link>
+      <pubDate>Thu, 10 Jul 2014 12:00:00 +0000</pubDate>
+      
+      <guid>https://oliviergimenez.github.io/post/nimble/</guid>
+      <description>&lt;p&gt;I attended Daniel Turek&amp;rsquo;s talk at ISEC about &lt;a href=&#34;http://r-nimble.org/&#34; target=&#34;_blank&#34;&gt;NIMBLE&lt;/a&gt;
+a neat alternative to WinBUGS and JAGS. It is developed by
+&lt;a href=&#34;http://nature.berkeley.edu/~pdevalpine/&#34; target=&#34;_blank&#34;&gt;Perry de Valpine&amp;rsquo;s
+group&lt;/a&gt; at Berkeley and &lt;em&gt;&amp;lsquo;lets you use BUGS models natively in R, program functions
+that use them, and compile everything via C++ for faster computing&amp;rsquo;.&lt;/em&gt; I played around
+with NIMBLE a bit, &lt;a href=&#34;https://dl.dropboxusercontent.com/u/23160641/my-codes/cjs-nimble.R&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;
+is an example of fitting a classic capture-recapture model to simulated data - thanks to Perry
+and Daniel for their help! NIMBLE seems a lot faster than its competitors, and much more flexible.
+I&amp;rsquo;ll continue my investigations with more complex models - stay tuned.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ISEC 2014: the end</title>
+      <link>https://oliviergimenez.github.io/post/isec2014_end/</link>
+      <pubDate>Sat, 05 Jul 2014 12:00:00 +0000</pubDate>
+      
+      <guid>https://oliviergimenez.github.io/post/isec2014_end/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://isec2014.sciencesconf.org/&#34; target=&#34;_blank&#34;&gt;ISEC 2014&lt;/a&gt; is now closed.
+Organising this conference has been a fantastic adventure; hopefully the participants
+liked it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>We&#39;re presenting our work at ISEC 2014</title>
+      <link>https://oliviergimenez.github.io/post/isec2014_talks/</link>
+      <pubDate>Sat, 05 Jul 2014 12:00:00 +0000</pubDate>
+      
+      <guid>https://oliviergimenez.github.io/post/isec2014_talks/</guid>
+      <description>&lt;p&gt;I gave a talk at ISEC 2014 on
+fitting occupancy models with hidden-Markov models using E-SURGE:&lt;/p&gt;
+
+&lt;iframe src=&#34;https://widgets.figshare.com/articles/4833092/embed?show_title=1&#34; width=&#34;568&#34; height=&#34;426&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>We&#39;re organising ISEC 2014</title>
+      <link>https://oliviergimenez.github.io/post/isec2014_prep/</link>
+      <pubDate>Sun, 01 Jun 2014 12:00:00 +0000</pubDate>
+      
+      <guid>https://oliviergimenez.github.io/post/isec2014_prep/</guid>
+      <description>&lt;p&gt;The team is leading the organisation of &lt;a href=&#34;http://isec2014.sciencesconf.org/&#34; target=&#34;_blank&#34;&gt;ISEC2014&lt;/a&gt;.
+We&amp;rsquo;re getting ready by, among many other things, preparing the delegates&amp;rsquo; packs. Of
+course, these efforts cannot go without some relaxing time.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://oliviergimenez.github.io/img/preparing-delegate-pack.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://oliviergimenez.github.io/img/relaxing-planche-de-la-mer.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://oliviergimenez.github.io/img/relaxing.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

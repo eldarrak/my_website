@@ -20,6 +20,9 @@ seminar gathering participants to the project, local authorities, lay persons wh
 listen to the results of the projects. The talks can be seen 
 [here](https://www.gdegem.org/presentations-restitution-resultats-projet-gdegem). I 
 contributed by presenting our 
-[abundance estimates](https://www.gis3m.org/sites/gis3m.org/files/doc/abondance_med_fr_gimenez_2016v2.pdf) 
+abundance estimates 
+<iframe src="https://widgets.figshare.com/articles/4833089/embed?show_title=1" width="568" height="351" frameborder="0"></iframe> 
 and our new project on the 
-[coexistence between dolphins and human activities](https://www.gis3m.org/sites/gis3m.org/files/doc/coexistence_gimenez_2016v2.pdf). 
+coexistence between dolphins and human activities
+<iframe src="https://widgets.figshare.com/articles/4833086/embed?show_title=1" width="568" height="351" frameborder="0"></iframe>
+ 

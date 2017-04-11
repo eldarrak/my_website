@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dolphin on </title>
+    <link>https://oliviergimenez.github.io/tags/dolphin/index.xml</link>
+    <description>Recent content in Dolphin on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Olivier Gimenez</copyright>
+    <atom:link href="/tags/dolphin/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>GDEGeM workshop on bottlenose dolphin conservation in the North-Western Mediterranean Sea</title>
+      <link>https://oliviergimenez.github.io/post/gdegem_restitution/</link>
+      <pubDate>Thu, 10 Nov 2016 12:00:00 +0000</pubDate>
+      
+      <guid>https://oliviergimenez.github.io/post/gdegem_restitution/</guid>
+      <description>&lt;p&gt;During the period 2013-2015, the &lt;a href=&#34;https://www.gis3m.org/&#34; target=&#34;_blank&#34;&gt;NGO GIS3M&lt;/a&gt; led the
+&lt;a href=&#34;https://www.gdegem.org/&#34; target=&#34;_blank&#34;&gt;GDEGeM project&lt;/a&gt; in which tons of data (on abundance
+and distribution among others) were collected on bottlenose dolphins.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;We had a 1-day
+seminar gathering participants to the project, local authorities, lay persons who came to
+listen to the results of the projects. The talks can be seen
+&lt;a href=&#34;https://www.gdegem.org/presentations-restitution-resultats-projet-gdegem&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. I
+contributed by presenting our
+abundance estimates
+&lt;iframe src=&#34;https://widgets.figshare.com/articles/4833089/embed?show_title=1&#34; width=&#34;568&#34; height=&#34;351&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+and our new project on the
+coexistence between dolphins and human activities
+&lt;iframe src=&#34;https://widgets.figshare.com/articles/4833086/embed?show_title=1&#34; width=&#34;568&#34; height=&#34;351&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

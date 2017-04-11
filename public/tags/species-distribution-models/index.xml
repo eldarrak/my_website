@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Species Distribution Models on </title>
+    <link>https://oliviergimenez.github.io/tags/species-distribution-models/index.xml</link>
+    <description>Recent content in Species Distribution Models on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Olivier Gimenez</copyright>
+    <atom:link href="/tags/species-distribution-models/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Another visit of Ian Renner</title>
+      <link>https://oliviergimenez.github.io/post/ian_visit2/</link>
+      <pubDate>Sun, 01 Jan 2017 12:00:00 +0000</pubDate>
+      
+      <guid>https://oliviergimenez.github.io/post/ian_visit2/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.newcastle.edu.au/profile/ian-renner&#34; target=&#34;_blank&#34;&gt;Ian Renner&lt;/a&gt; from the University of
+Newcastle in Australia, who visited us back in 2015, is with us again for a short 3-week
+visit.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;We resumed the work we started one year ago on developing a method to combine
+sources of information on species distribution. We also started a new project on model
+selection in occupancy and capture-recapture models using the LASSO.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Capture Recapture on </title>
+    <link>https://oliviergimenez.github.io/tags/capture-recapture/index.xml</link>
+    <description>Recent content in Capture Recapture on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Olivier Gimenez</copyright>
+    <atom:link href="/tags/capture-recapture/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Review on individual heterogeneity in capture-recapture models</title>
+      <link>https://oliviergimenez.github.io/post/paper_idh/</link>
+      <pubDate>Mon, 27 Mar 2017 12:00:00 +0000</pubDate>
+      
+      <guid>https://oliviergimenez.github.io/post/paper_idh/</guid>
+      <description>&lt;p&gt;&lt;img style=&#34;float:left;margin-right:10px;margin-top:10px;&#34; src=&#34;https://oliviergimenez.github.io/img/idh.png&#34;&gt;
+I just submitted to Oikos a paper entitled &amp;ldquo;Individual heterogeneity and
+capture-recapture models: what, why and how?&amp;ldquo;. A pre-print is available
+&lt;a href=&#34;http://biorxiv.org/content/early/2017/03/26/120683&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. I also provide R codes
+on GitHub &lt;a href=&#34;http://bit.ly/2nqWzoZ&#34; target=&#34;_blank&#34;&gt;there&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;This is joint work with Emmanuelle Cam and
+Jean-Michel Gaillard. This work was greatly inspired by my HDR I defended back in 2010
+(!) and the ANR project I got over the period 2008-2011 (re-!).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Capture-recapture workshop in Montpellier</title>
+      <link>https://oliviergimenez.github.io/post/cr_workshop_2017/</link>
+      <pubDate>Mon, 20 Mar 2017 12:00:00 +0000</pubDate>
+      
+      <guid>https://oliviergimenez.github.io/post/cr_workshop_2017/</guid>
+      <description>&lt;p&gt;&lt;img style=&#34;float:left;margin-right:10px;margin-top:10px;&#34; src=&#34;https://oliviergimenez.github.io/img/cmr.png&#34;&gt;
+We held our annual 5-day &lt;a href=&#34;https://multievent.sciencesconf.org/&#34; target=&#34;_blank&#34;&gt;capture-recapture workshop&lt;/a&gt;
+in Montpellier. As always, the attendees had challenging questions and stimulating datasets
+to analyse! Looking forward to next year.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GDEGeM workshop on bottlenose dolphin conservation in the North-Western Mediterranean Sea</title>
+      <link>https://oliviergimenez.github.io/post/gdegem_restitution/</link>
+      <pubDate>Thu, 10 Nov 2016 12:00:00 +0000</pubDate>
+      
+      <guid>https://oliviergimenez.github.io/post/gdegem_restitution/</guid>
+      <description>&lt;p&gt;During the period 2013-2015, the &lt;a href=&#34;https://www.gis3m.org/&#34; target=&#34;_blank&#34;&gt;NGO GIS3M&lt;/a&gt; led the
+&lt;a href=&#34;https://www.gdegem.org/&#34; target=&#34;_blank&#34;&gt;GDEGeM project&lt;/a&gt; in which tons of data (on abundance
+and distribution among others) were collected on bottlenose dolphins.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;We had a 1-day
+seminar gathering participants to the project, local authorities, lay persons who came to
+listen to the results of the projects. The talks can be seen
+&lt;a href=&#34;https://www.gdegem.org/presentations-restitution-resultats-projet-gdegem&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. I
+contributed by presenting our
+abundance estimates
+&lt;iframe src=&#34;https://widgets.figshare.com/articles/4833089/embed?show_title=1&#34; width=&#34;568&#34; height=&#34;351&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+and our new project on the
+coexistence between dolphins and human activities
+&lt;iframe src=&#34;https://widgets.figshare.com/articles/4833086/embed?show_title=1&#34; width=&#34;568&#34; height=&#34;351&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Another visit of Raluca Bancila</title>
+      <link>https://oliviergimenez.github.io/post/raluca_visit2/</link>
+      <pubDate>Sat, 01 Oct 2016 12:00:00 +0000</pubDate>
+      
+      <guid>https://oliviergimenez.github.io/post/raluca_visit2/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.researchgate.net/profile/Raluca_Bancila&#34; target=&#34;_blank&#34;&gt;Raluca Bancila&lt;/a&gt;, who visited us
+back in 2015, is with us again for a short 2-week visit. We will resume a project we
+started one year ago on the evaluation of demographic parameters of two related species
+of spadefoot toads (Pelobates syriacus and P. fuscus) from the &lt;a href=&#34;http://whc.unesco.org/en/list/588&#34; target=&#34;_blank&#34;&gt;Danube Delta
+Biosphere Reserve&lt;/a&gt;, Romania, using capture-recapture models.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>International workshop on Bottlenose dolphin conservation and monitoring</title>
+      <link>https://oliviergimenez.github.io/post/gis3m/</link>
+      <pubDate>Tue, 01 Dec 2015 12:00:00 +0000</pubDate>
+      
+      <guid>https://oliviergimenez.github.io/post/gis3m/</guid>
+      <description>&lt;p&gt;The GIS3M held an &lt;a href=&#34;http://www.gdegem.org/international-workshop&#34; target=&#34;_blank&#34;&gt;international
+workshop&lt;/a&gt; in Marseille on the conservation of Bottlenose dolphin conservation and monitoring
+in the North-Western Mediterranean Sea. This was the opportunity to discuss the results of
+the &lt;a href=&#34;http://www.gdegem.org/rapports&#34; target=&#34;_blank&#34;&gt;GDEGeM project&lt;/a&gt; on the
+same topic. I mostly contributed by analysing the tons of photo-IDs that were
+collected during the program to estimate abundance and analyze the social structure.
+The slides of my talk:&lt;/p&gt;
+
+&lt;iframe src=&#34;https://widgets.figshare.com/articles/4833083/embed?show_title=1&#34; width=&#34;568&#34; height=&#34;351&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Raluca Bancila&#39;s visit</title>
+      <link>https://oliviergimenez.github.io/post/raluca_visit1/</link>
+      <pubDate>Thu, 01 Oct 2015 12:00:00 +0000</pubDate>
+      
+      <guid>https://oliviergimenez.github.io/post/raluca_visit1/</guid>
+      <description>&lt;p&gt;I had the visit of  &lt;a href=&#34;https://www.researchgate.net/profile/Raluca_Bancila&#34; target=&#34;_blank&#34;&gt;Raluca
+Bancila&lt;/a&gt; a research scientist from Romania. We investigated spatio-temporal environmental variation
+in and individual heterogeneity on emigration/immigration rates of the
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Troglofauna&#34; target=&#34;_blank&#34;&gt;troglophile harvestmen
+species&lt;/a&gt; Paranemastoma silli with capture-recapture models. We used two P. silli populations
+inhabiting two caves, Closani and Lazului Caves, located in the Mehedinti Mountains in southwestern
+Romania. Yes, we do not only work on big emblematic mammal species ;-)
+On a personal side, Raluca is always smiling and laughing – ‘la banane’ like we say in French,
+it was so good to have her in the team. I’m looking forward to hosting her again!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Capture-recapture workshop</title>
+      <link>https://oliviergimenez.github.io/post/workshop_cmr_2014/</link>
+      <pubDate>Thu, 20 Mar 2014 12:00:00 +0000</pubDate>
+      
+      <guid>https://oliviergimenez.github.io/post/workshop_cmr_2014/</guid>
+      <description>&lt;p&gt;The team run two 1-week workshops on &lt;a href=&#34;http://multievent.sciencesconf.org/&#34; target=&#34;_blank&#34;&gt;capture-recapture
+models&lt;/a&gt; and &lt;a href=&#34;http://matrixmodels.sciencesconf.org/&#34; target=&#34;_blank&#34;&gt;matrix models&lt;/a&gt;.
+We&amp;rsquo;re grateful to all the attendees who came, with fascinating research topics and stimulating
+questions. No need to say that your presence means a lot to us! We hope to see again many
+people next year! Warm and special thanks to &lt;a href=&#34;http://www.cnr.usu.edu/htm/facstaff/koons-page&#34; target=&#34;_blank&#34;&gt;Dave
+Koons&lt;/a&gt;, &lt;a href=&#34;http://liseaubry.webs.com/&#34; target=&#34;_blank&#34;&gt;Lise Aubry&lt;/a&gt; and Pamela
+Lagrange!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

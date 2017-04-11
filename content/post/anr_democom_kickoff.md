@@ -1,7 +1,7 @@
 +++
 date = "2017-02-23T12:00:00"
 draft = false
-tags = ["grant", "project", "multispecies" , "demography"]
+tags = ["grant", "project", "multispecies", "demography"]
 title = "DEMOCOM kick-off meeting"
 math = true
 summary = """

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fishing on </title>
+    <link>https://oliviergimenez.github.io/tags/fishing/index.xml</link>
+    <description>Recent content in Fishing on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Olivier Gimenez</copyright>
+    <atom:link href="/tags/fishing/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Fishing season is open ;-)</title>
+      <link>https://oliviergimenez.github.io/post/fishing2016/</link>
+      <pubDate>Sat, 12 Mar 2016 12:00:00 +0000</pubDate>
+      
+      <guid>https://oliviergimenez.github.io/post/fishing2016/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

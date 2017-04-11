@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cnrs on </title>
+    <link>https://oliviergimenez.github.io/tags/cnrs/index.xml</link>
+    <description>Recent content in Cnrs on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Olivier Gimenez</copyright>
+    <atom:link href="/tags/cnrs/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>My CNRS interview for a senior scientist position</title>
+      <link>https://oliviergimenez.github.io/post/cnrs_interview/</link>
+      <pubDate>Fri, 20 Apr 2012 12:00:00 +0000</pubDate>
+      
+      <guid>https://oliviergimenez.github.io/post/cnrs_interview/</guid>
+      <description>&lt;p&gt;Here are the slides of my interview for a CNRS senior scientist position (DR2). Note that
+CNRS offers interdisciplinary positions, which is sadly not true for all of our research
+institutes.&lt;/p&gt;
+
+&lt;iframe src=&#34;https://widgets.figshare.com/articles/4833104/embed?show_title=1&#34; width=&#34;568&#34; height=&#34;426&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

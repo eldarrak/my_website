@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on </title>
+    <link>https://oliviergimenez.github.io/tags/r/index.xml</link>
+    <description>Recent content in R on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Olivier Gimenez</copyright>
+    <atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Working group on animal/human demography</title>
+      <link>https://oliviergimenez.github.io/post/working_group_demo/</link>
+      <pubDate>Thu, 26 Jan 2017 12:00:00 +0000</pubDate>
+      
+      <guid>https://oliviergimenez.github.io/post/working_group_demo/</guid>
+      <description>&lt;p&gt;We organised a 2-day workshop on the metrics of longevity used in human and
+animal demography. The idea is to explore potential bridges between the two fields.
+Next meeting in April. The group is led by S. Cubaynes, a former PhD student of mine,
+who now holds a lecturer position at Montpellier University.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Workshop on issues in fitting hierarchical models in ecology</title>
+      <link>https://oliviergimenez.github.io/post/working_group_hm/</link>
+      <pubDate>Mon, 28 Nov 2016 12:00:00 +0000</pubDate>
+      
+      <guid>https://oliviergimenez.github.io/post/working_group_hm/</guid>
+      <description>&lt;p&gt;Frederic Gosselin, Etienne Rivot and I organised a 2-day workshop on issues in
+fitting hierarchical models in ecology. I gave a talk on &amp;ldquo;Local minima and multistate
+capture-recapture models&amp;rdquo;, slides and R code available on
+&lt;a href=&#34;https://github.com/oliviergimenez/multistate_local_minima&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe src=&#34;https://widgets.figshare.com/articles/4833524/embed?show_title=1&#34; width=&#34;568&#34; height=&#34;351&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;The idea is to consider several problematic case studies and explore the issues using
+several computing platforms (R, Jags, Nimble, Stan, Admb). Next meeting in May.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Analysing the social Star Wars network in The Attack of the Clones with R</title>
+      <link>https://oliviergimenez.github.io/post/star_wars_in_R/</link>
+      <pubDate>Sun, 07 Aug 2016 12:00:00 +0000</pubDate>
+      
+      <guid>https://oliviergimenez.github.io/post/star_wars_in_R/</guid>
+      <description>
+
+&lt;p&gt;This is a free adaptation of two (very) clever analyses made by others:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://evelinag.com/blog/2015/12-15-star-wars-social-network&#34; target=&#34;_blank&#34;&gt;The Star Wars Social Network by Evelina Gabasov&lt;/a&gt; in which program F# was mostly used to analyse the Star wars social networks&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://varianceexplained.org/r/love-actually-network/&#34; target=&#34;_blank&#34;&gt;Analyzing networks of characters in &amp;lsquo;Love Actually&amp;rsquo; by David Robinson&lt;/a&gt; in which R was used to analyse the links between the characters of the movie Love Actually.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The aim here is to try and reproduce Evelina&amp;rsquo;s analysis using R only, using David&amp;rsquo;s
+contribution plus several tweaks I found here and there on the internet.&lt;/p&gt;
+
+&lt;p&gt;The R code and data are available on my &lt;a href=&#34;https://github.com/oliviergimenez/starwars_network&#34; target=&#34;_blank&#34;&gt;GitHub page&lt;/a&gt;.
+The results is published via &lt;a href=&#34;http://rpubs.com/ogimenez/200849&#34; target=&#34;_blank&#34;&gt;RPub&lt;/a&gt;, have a look in
+particular to the dynamic representation of the network towards the end.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Disclaimer&lt;/em&gt;: The original blog posts are awesome and full of relevant details, check them out! My objective here was to teach myself how to manipulate data using trendy R packages and do some network analyses. Some comments below have been copied and pasted from these blogs, the credits entirely go to the authors Evelina and David. Last but not least, my code comes with mistakes probably.&lt;/p&gt;
+
+&lt;h1 id=&#34;read-and-format-data&#34;&gt;Read and format data&lt;/h1&gt;
+
+&lt;p&gt;First, read in data. I found the movie script in doc format &lt;a href=&#34;theforce.net/timetales/ep2se.doc&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;, which I converted in txt format for convenience. Then, apply various treatments to have the data ready for analysis. I use the old school way for modifying the original dataframe. &lt;a href=&#34;https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf&#34; target=&#34;_blank&#34;&gt;Piping&lt;/a&gt; would have made the code more readable, but I do not feel confident with this approach yet.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r, echo=TRUE, message=FALSE, warning=FALSE&#34;&gt;
+# load convenient packages
+library(dplyr)
+library(stringr)
+library(tidyr)
+
+# read file line by line 
+raw &amp;lt;- readLines(&amp;quot;attack-of-the-clones.txt&amp;quot;)
+
+# create data frame
+lines &amp;lt;- data_frame(raw = raw) 
+
+# get rid of leading and trailing white spaces
+# http://stackoverflow.com/questions/2261079/how-to-trim-leading-and-trailing-whitespace-in-r
+trim &amp;lt;- function (x) gsub(&amp;quot;^\\s+|\\s+$&amp;quot;, &amp;quot;&amp;quot;, x)
+lines= mutate(lines,raw=trim(raw))
+
+# get rid of the empty lines
+lines2 &amp;lt;- filter(lines, raw != &amp;quot;&amp;quot;)
+
+# detect scenes: begin by EXT. or INT.
+lines3 &amp;lt;-  mutate(lines2, is_scene = str_detect(raw, &amp;quot;T.&amp;quot;),scene = cumsum(is_scene)) 
+
+# drop lines that start with EXT. or INT.
+lines4 &amp;lt;- filter(lines3,!is_scene)
+
+# distinguish characters from what they say
+lines5 &amp;lt;- separate(lines4, raw, c(&amp;quot;speaker&amp;quot;, &amp;quot;dialogue&amp;quot;), sep = &amp;quot;:&amp;quot;, fill = &amp;quot;left&amp;quot;,extra=&#39;drop&#39;)
+
+# read in aliases (from Evelina&#39;s post)
+aliases &amp;lt;- read.table(&#39;aliases.csv&#39;,sep=&#39;,&#39;,header=T,colClasses = &amp;quot;character&amp;quot;)
+aliases$Alias
+aliases$Name
+
+# assign unique name to characters
+# http://stackoverflow.com/questions/28593265/is-there-a-function-like-switch-which-works-inside-of-dplyrmutate
+multipleReplace &amp;lt;- function(x, what, by) {
+  stopifnot(length(what)==length(by))               
+  ind &amp;lt;- match(x, what)
+  ifelse(is.na(ind),x,by[ind])
+}
+lines6 &amp;lt;- mutate(lines5,speaker=multipleReplace(speaker,what=aliases$Alias,by=aliases$Name))
+
+# read in actual names (from Evelina&#39;s post)
+actual.names &amp;lt;- read.csv(&#39;characters.csv&#39;,header=F,colClasses = &amp;quot;character&amp;quot;)
+actual.names &amp;lt;- c(as.matrix(actual.names))
+# filter out non-characters
+lines7 &amp;lt;- filter(lines6,speaker %in% actual.names)
+
+# group by scene
+lines8 &amp;lt;- group_by(lines7, scene, line = cumsum(!is.na(speaker))) 
+
+lines9 &amp;lt;- summarize(lines8, speaker = speaker[1], dialogue = str_c(dialogue, collapse = &amp;quot; &amp;quot;))
+
+# Count the lines-per-scene-per-character
+# Turn the result into a binary speaker-by-scene matrix
+by_speaker_scene &amp;lt;- count(lines9, scene, speaker)
+by_speaker_scene
+
+library(reshape2)
+speaker_scene_matrix &amp;lt;-acast(by_speaker_scene , speaker ~ scene, fun.aggregate = length)
+dim(speaker_scene_matrix)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;analyses&#34;&gt;Analyses&lt;/h1&gt;
+
+&lt;h2 id=&#34;hierarchical-clustering&#34;&gt;Hierarchical clustering&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;norm &amp;lt;- speaker_scene_matrix / rowSums(speaker_scene_matrix)
+h &amp;lt;- hclust(dist(norm, method = &amp;quot;manhattan&amp;quot;))
+plot(h)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;timeline&#34;&gt;Timeline&lt;/h2&gt;
+
+&lt;p&gt;Use tree to give an ordering that puts similar characters close together&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;ordering &amp;lt;- h$labels[h$order]
+ordering
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This ordering can be used to make other graphs more informative. For instance, we can visualize a timeline of all scenes:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;scenes &amp;lt;-  filter(by_speaker_scene, n() &amp;gt; 1) # scenes with &amp;gt; 1 character
+scenes2 &amp;lt;- ungroup(scenes)
+scenes3 &amp;lt;- mutate(scenes2, scene = as.numeric(factor(scene)),
+           character = factor(speaker, levels = ordering))
+library(ggplot2)
+ggplot(scenes3, aes(scene, character)) +
+    geom_point() +
+    geom_path(aes(group = scene))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Create a cooccurence matrix (see &lt;a href=&#34;http://stackoverflow.com/questions/13281303/creating-co-occurrence-matrix&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;) containing how many times two characters share scenes&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;cooccur &amp;lt;- speaker_scene_matrix %*% t(speaker_scene_matrix)
+heatmap(cooccur)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;social-network-analyses&#34;&gt;Social network analyses&lt;/h2&gt;
+
+&lt;h3 id=&#34;graphical-representation-of-the-network&#34;&gt;Graphical representation of the network&lt;/h3&gt;
+
+&lt;p&gt;Here the nodes represent characters in the movies. The characters are connected by a link if they both speak in the same scene. And the more the characters speak together, the thicker the link between them.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r, echo=TRUE, message=FALSE, warning=FALSE&#34;&gt;library(igraph)
+g &amp;lt;- graph.adjacency(cooccur, weighted = TRUE, mode = &amp;quot;undirected&amp;quot;, diag = FALSE)
+plot(g, edge.width = E(g)$weight)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Compute standard network features, degree and betweeness&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;degree(g)
+betweenness(g)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Get a nicer representation of the network. See &lt;a href=&#34;http://tagteam.harvard.edu/hub_feeds/1981/feed_items/1388531&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;, for formating from igraph to d3Network.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(d3Network)
+library(networkD3)
+sg &amp;lt;- simplify(g)
+df &amp;lt;- get.edgelist(g, names=TRUE)
+df &amp;lt;- as.data.frame(df)
+colnames(df) &amp;lt;- c(&#39;source&#39;, &#39;target&#39;)
+df$value &amp;lt;- rep(1, nrow(df))
+# get communities
+fc &amp;lt;- fastgreedy.community(g)
+com &amp;lt;- membership(fc)
+node.info &amp;lt;- data.frame(name=names(com), group=as.vector(com))
+links &amp;lt;- data.frame(source=match(df$source, node.info$name)-1,target=match(df$target, node.info$name)-1,value=df$value)
+
+forceNetwork(Links = links, Nodes = node.info,Source = &amp;quot;source&amp;quot;, Target = &amp;quot;target&amp;quot;,Value = &amp;quot;value&amp;quot;, NodeID = &amp;quot;name&amp;quot;,Group = &amp;quot;group&amp;quot;, opacity = 1, opacityNoHover=1)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here the nodes represent characters in the movies. The characters are connected by a link if they both speak in the same scene. The colors are for groups obtained by some algorithms&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Self teaching reproducible research</title>
+      <link>https://oliviergimenez.github.io/post/reproducible_research/</link>
+      <pubDate>Sun, 10 Jul 2016 12:00:00 +0000</pubDate>
+      
+      <guid>https://oliviergimenez.github.io/post/reproducible_research/</guid>
+      <description>&lt;p&gt;I decided to teach myself how to do proper reproducible research. Many reasons to
+that: save time on the mid/long term, make my analyses open and criticizable, share with others, &amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;There are tons of resources on  the web. I use the &lt;a href=&#34;http://kbroman.org/pages/tutorials.html&#34; target=&#34;_blank&#34;&gt;tutorials&lt;/a&gt;
+cooked by guru &lt;a href=&#34;http://kbroman.org/&#34; target=&#34;_blank&#34;&gt;Karl Broman&lt;/a&gt;.
+For people like me who learned S-plus, he has some &lt;a href=&#34;http://kbroman.org/hipsteR/&#34; target=&#34;_blank&#34;&gt;advice&lt;/a&gt; to switch to modern tools.
+Among others, I try and use more and more RStudio in connection with KnitR and R Markdown and
+share my codes on &lt;a href=&#34;https://github.com/oliviergimenez&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;. I am more a Fortran guy,
+but Rcpp makes me wonder about C++.  Version control, piping and the tidy universe are
+not yet entirely familiar to me, I’m making baby steps (or grandpa steps I should say). Let’s see how it goes.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>New kids on the Bayesian block</title>
+      <link>https://oliviergimenez.github.io/post/nimble/</link>
+      <pubDate>Thu, 10 Jul 2014 12:00:00 +0000</pubDate>
+      
+      <guid>https://oliviergimenez.github.io/post/nimble/</guid>
+      <description>&lt;p&gt;I attended Daniel Turek&amp;rsquo;s talk at ISEC about &lt;a href=&#34;http://r-nimble.org/&#34; target=&#34;_blank&#34;&gt;NIMBLE&lt;/a&gt;
+a neat alternative to WinBUGS and JAGS. It is developed by
+&lt;a href=&#34;http://nature.berkeley.edu/~pdevalpine/&#34; target=&#34;_blank&#34;&gt;Perry de Valpine&amp;rsquo;s
+group&lt;/a&gt; at Berkeley and &lt;em&gt;&amp;lsquo;lets you use BUGS models natively in R, program functions
+that use them, and compile everything via C++ for faster computing&amp;rsquo;.&lt;/em&gt; I played around
+with NIMBLE a bit, &lt;a href=&#34;https://dl.dropboxusercontent.com/u/23160641/my-codes/cjs-nimble.R&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;
+is an example of fitting a classic capture-recapture model to simulated data - thanks to Perry
+and Daniel for their help! NIMBLE seems a lot faster than its competitors, and much more flexible.
+I&amp;rsquo;ll continue my investigations with more complex models - stay tuned.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -9,6 +9,8 @@ summary = """
 
 +++
  
+<img style="float:left;margin-right:10px;margin-top:10px;" src="/img/cmr.png">
 We held our annual 5-day [capture-recapture workshop](https://multievent.sciencesconf.org/) 
 in Montpellier. As always, the attendees had challenging questions and stimulating datasets 
-to analyse!
+to analyse! Looking forward to next year.
+

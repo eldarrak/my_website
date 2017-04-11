@@ -9,6 +9,7 @@ summary = """
 
 +++
  
+<img style="float:left;margin-right:10px;margin-top:10px;" src="/img/semling.png">
 We organized a meeting between our lab and [Praxiling](http://www.praxiling.fr/?lang=en) 
 a lab working in linguistic to explore potential collaborations between ecology and linguistic. 
 Marie Chandelier and I gave a talk on our recent results on a content analysis we 
