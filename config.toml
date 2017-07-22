@@ -115,23 +115,49 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "People"
-  url = "#people"
+  url = "#People"
   weight = 2
+
+[[menu.main]]
+  name = "Current"
+  parent = "People"
+  url = "#current"
+weight = 3
+
+[[menu.main]]
+  name = "Former"
+  parent = "People"
+  url = "#alumni"
+weight = 4
 
 [[menu.main]]
   name = "News"
   url = "#news"
-  weight = 3
-
-[[menu.main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 4
+  weight = 5
 
 [[menu.main]]
   name = "Publications"
   url = "#publications"
-  weight = 5
+  identifier = "pubs"
+  weight = 6
+  
+[[menu.main]]
+  name = "Papers"
+  parent = "pubs"
+  url = "#papers"
+  weight = 7
+  
+[[menu.main]]
+  name = "Books"
+  parent = "pubs"
+url = "#books"
+  weight = 8
+
+  [[menu.main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 9
+
 
 # Taxonomies.
 [taxonomies]

@@ -1,19 +1,20 @@
 +++
-# An example of using the custom widget to create your own homepage section.
-# To create more sections, duplicate this file and edit the values below as desired.
 
 date = "2016-04-20T00:00:00"
 draft = false
 
-title = "Publications"
+title = "Papers"
 subtitle = ""
 widget = "custom"
 
 # Order that this section will appear in.
-weight = 5
+weight = 7
 
 +++
 
+152. Louvrier, J., C. Duchamp, V. Lauret, E. Marboutin, S. Cubaynes, R. Choquet, C. Miquel, <strong>O. Gimenez</strong> (2017). <a href="https://dl.dropboxusercontent.com/u/23160641/my-pubs/Louvrieretal2017Ecography.pdf" target="_blank">Mapping and explaining wolf recolonization in France using dynamic occupancy models and opportunistic data</a>. <em>Ecography</em>. 40: 001-013
+151. Piédallu, B., P.-Y. Quenette, N. Bombillon, A. Gastineau, C. Miquel, <strong>O. Gimenez</strong> (2017). <a href="https://dl.dropboxusercontent.com/u/23160641/my-pubs/Piedalluetal2017Oryx.pdf" target="_blank">Determinants and patterns of habitat use by the brown bear Ursus arctos in the French Pyrenees revealed by occupancy modelling</a>. <em>Oryx</em>. doi:10.1017/S0030605317000321
+150. <strong>Gimenez, O.</strong> and C. Barbraud (2017). <a href="https://dl.dropboxusercontent.com/u/23160641/my-pubs/GimenezBarbraud2017PopEcol.PDF" target="_blank">Dealing with many correlated covariates in capture-recapture models</a>. <em>Population Ecology</em>. DOI 10.1007/s10144-017-0586-1
 149. Santostasi, N.L., S. Bonizzoni, G. Bearzi, L. Eddy, <strong>O. Gimenez</strong> (2016). <a href="https://dl.dropboxusercontent.com/u/23160641/my-pubs/Santostasietal2016PlosOne.pdf" target="_blank">A Robust Design Capture-Recapture Analysis of Abundance, Survival and Temporary Emigration of Three Odontocete Species in the Gulf of Corinth, Greece</a>. <em>Plos One</em>. 11(12): e0166650
 148. Kazakou, E., G. Fried, J. Richarte, <strong>O. Gimenez</strong>, C. Violle and A. Metay (2016). <a href="https://dl.dropboxusercontent.com/u/23160641/my-pubs/Kazakouetal2016BotanyLetters.pdf" target="_blank">A plant trait-based response-and-effect framework to assess vineyard inter-row soil management</a>. <em>Botany Letters</em>. 163: 373-388
 147. Péron, G., J.-M. Gaillard, C. Barbraud, C. Bonenfant, A. Charmantier, R. Choquet, T. Coulson, V. Grosbois, A. Loison, G. Marzolin, N. Owen-Smith, D. Pardo, F. Plard, R. Pradel, C. Toïgo, <strong>O. Gimenez</strong> (2016). <a href="https://dl.dropboxusercontent.com/u/23160641/my-pubs/Peronetal2016_Evolution.pdf" target="_blank">Evidence of reduced individual heterogeneity in adult survival of long-lived species</a>. <em>Evolution</em>. 70:2909-2914

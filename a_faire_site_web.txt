@@ -1,0 +1,26 @@
+PAS PRESSE
+1. rajouter une page sur projets passés et présents (and cr2m, democom, interact, pages sur wordpress, GDR ecostat)
+2. page software? various github repositories?
+3. rajouter reunion SUSTAIN, post arbre JDL pour jubile, rapport pour allemand SDM, rapport pour australienne Warton
+
+TUTO
+
+Dans console:
+cd Dropbox/OG/GitHub/my_website/
+hugo server --watch
+
+Sur Firefox, open
+http://localhost:1313/
+
+Quand ok, faire hugo dans console
+
+Prendre tous les fichiers contenus dans dossier /Public et les CC dans oliviergimenez.github.io
+
+Puis dans console:
+git add --all
+git commit -m ‘blabla’
+git push
+git push origin HEAD:master --force
+
+
+

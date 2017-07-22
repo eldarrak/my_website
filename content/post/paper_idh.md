@@ -4,6 +4,7 @@ draft = false
 tags = ["paper", "individual heterogeneity", "capture-recapture"]
 title = "Review on individual heterogeneity in capture-recapture models"
 math = true
+summary = ""
 +++
  
 <img style="float:left;margin-right:10px;margin-top:10px;" src="/img/idh.png">
